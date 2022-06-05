@@ -10,8 +10,8 @@ class UserController extends Controller
 {
     // Show Register/Create Form
     public function create() {
-        return redirect('404');
-        // return view('users.register');
+        // return redirect('404');
+        return view('users.register');
     }
 
     // Create New User
